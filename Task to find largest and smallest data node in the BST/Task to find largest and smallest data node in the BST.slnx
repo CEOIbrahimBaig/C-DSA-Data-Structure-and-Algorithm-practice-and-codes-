@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Task to find largest and smallest data node in the BST/Task to find largest and smallest data node in the BST.vcxproj" />
+</Solution>
