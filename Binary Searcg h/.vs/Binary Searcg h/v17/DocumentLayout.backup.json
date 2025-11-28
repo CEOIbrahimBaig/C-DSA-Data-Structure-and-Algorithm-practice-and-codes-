@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\Binary Searcg h\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{010F48B1-684F-4CC2-97C2-5B28B749D38B}|Binary Searcg h\\Binary Searcg h.vcxproj|C:\\Users\\User\\source\\Binary Searcg h\\Binary Searcg h\\Binary Searcg h.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{010F48B1-684F-4CC2-97C2-5B28B749D38B}|Binary Searcg h\\Binary Searcg h.vcxproj|solutionrelative:Binary Searcg h\\Binary Searcg h.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Binary Searcg h.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\source\\Binary Searcg h\\Binary Searcg h\\Binary Searcg h.cpp",
+              "RelativeDocumentMoniker": "Binary Searcg h\\Binary Searcg h.cpp",
+              "ToolTip": "C:\\Users\\User\\source\\Binary Searcg h\\Binary Searcg h\\Binary Searcg h.cpp",
+              "RelativeToolTip": "Binary Searcg h\\Binary Searcg h.cpp",
+              "ViewState": "AgIAADgAAAAAAAAAAAAAAEsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-24T04:35:13.082Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Practicing Queue using linkedlist/Practicing Queue using linkedlist.vcxproj" />
+</Solution>

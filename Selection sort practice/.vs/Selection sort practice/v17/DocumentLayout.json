@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\Selection sort practice\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D25FA144-41EB-4C33-BD91-552A6223FE69}|Selection sort practice\\Selection sort practice.vcxproj|C:\\Users\\User\\source\\Selection sort practice\\Selection sort practice\\Selection sort practice.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D25FA144-41EB-4C33-BD91-552A6223FE69}|Selection sort practice\\Selection sort practice.vcxproj|solutionrelative:Selection sort practice\\Selection sort practice.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Selection sort practice.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\source\\Selection sort practice\\Selection sort practice\\Selection sort practice.cpp",
+              "RelativeDocumentMoniker": "Selection sort practice\\Selection sort practice.cpp",
+              "ToolTip": "C:\\Users\\User\\source\\Selection sort practice\\Selection sort practice\\Selection sort practice.cpp",
+              "RelativeToolTip": "Selection sort practice\\Selection sort practice.cpp",
+              "ViewState": "AgIAACcAAAAAAAAAAAAEwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-21T12:27:28.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

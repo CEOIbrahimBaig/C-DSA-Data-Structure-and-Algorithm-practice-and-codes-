@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\Binary tree using linked\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DC82568C-CFA9-4E18-9FCE-8B766474703B}|Binary tree using linked\\Binary tree using linked.vcxproj|C:\\Users\\User\\source\\Binary tree using linked\\Binary tree using linked\\Binary tree using linked.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DC82568C-CFA9-4E18-9FCE-8B766474703B}|Binary tree using linked\\Binary tree using linked.vcxproj|solutionrelative:Binary tree using linked\\Binary tree using linked.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Binary tree using linked.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\source\\Binary tree using linked\\Binary tree using linked\\Binary tree using linked.cpp",
+              "RelativeDocumentMoniker": "Binary tree using linked\\Binary tree using linked.cpp",
+              "ToolTip": "C:\\Users\\User\\source\\Binary tree using linked\\Binary tree using linked\\Binary tree using linked.cpp",
+              "RelativeToolTip": "Binary tree using linked\\Binary tree using linked.cpp",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-08-20T09:37:21.131Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

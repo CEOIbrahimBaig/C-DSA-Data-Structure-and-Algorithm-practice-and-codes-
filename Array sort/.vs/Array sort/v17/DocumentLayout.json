@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\Array sort\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{08B4CFF1-6EEC-44BF-A9C7-6D8E3EC83964}|Array sort\\Array sort.vcxproj|C:\\Users\\User\\source\\Array sort\\Array sort\\Array sort.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{08B4CFF1-6EEC-44BF-A9C7-6D8E3EC83964}|Array sort\\Array sort.vcxproj|solutionrelative:Array sort\\Array sort.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Array sort.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\source\\Array sort\\Array sort\\Array sort.cpp",
+              "RelativeDocumentMoniker": "Array sort\\Array sort.cpp",
+              "ToolTip": "C:\\Users\\User\\source\\Array sort\\Array sort\\Array sort.cpp",
+              "RelativeToolTip": "Array sort\\Array sort.cpp",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-17T17:05:16.596Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

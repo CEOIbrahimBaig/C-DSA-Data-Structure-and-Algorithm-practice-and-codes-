@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\Implement stack using linked List\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{289EEC25-175F-45E6-9127-B945D56E73D6}|Implement stack using linked List\\Implement stack using linked List.vcxproj|C:\\Users\\User\\source\\Implement stack using linked List\\Implement stack using linked List\\Implement stack using linked List.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{289EEC25-175F-45E6-9127-B945D56E73D6}|Implement stack using linked List\\Implement stack using linked List.vcxproj|solutionrelative:Implement stack using linked List\\Implement stack using linked List.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Implement stack using linked List.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\source\\Implement stack using linked List\\Implement stack using linked List\\Implement stack using linked List.cpp",
+              "RelativeDocumentMoniker": "Implement stack using linked List\\Implement stack using linked List.cpp",
+              "ToolTip": "C:\\Users\\User\\source\\Implement stack using linked List\\Implement stack using linked List\\Implement stack using linked List.cpp",
+              "RelativeToolTip": "Implement stack using linked List\\Implement stack using linked List.cpp",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAiwCIAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-31T08:11:41.886Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

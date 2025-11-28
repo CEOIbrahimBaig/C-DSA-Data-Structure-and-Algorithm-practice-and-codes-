@@ -1,0 +1,3 @@
+﻿  Array adt Implementation.cpp
+C:\Users\User\source\Array adt Implementation\Array adt Implementation\Array adt Implementation.cpp(157,1): warning C4715: 'myarray::binary_search': not all control paths return a value
+  Array adt Implementation.vcxproj -> C:\Users\User\source\Array adt Implementation\x64\Debug\Array adt Implementation.exe

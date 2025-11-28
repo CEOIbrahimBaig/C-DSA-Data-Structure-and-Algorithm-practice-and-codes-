@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\Binary Tree Postorder Traversal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{59EA5F3C-50ED-40B1-BF46-43D8F3DF43DA}|Binary Tree Postorder Traversal\\Binary Tree Postorder Traversal.vcxproj|C:\\Users\\User\\source\\Binary Tree Postorder Traversal\\Binary Tree Postorder Traversal\\Binary Tree Postorder Traversal.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{59EA5F3C-50ED-40B1-BF46-43D8F3DF43DA}|Binary Tree Postorder Traversal\\Binary Tree Postorder Traversal.vcxproj|solutionrelative:Binary Tree Postorder Traversal\\Binary Tree Postorder Traversal.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Binary Tree Postorder Traversal.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\source\\Binary Tree Postorder Traversal\\Binary Tree Postorder Traversal\\Binary Tree Postorder Traversal.cpp",
+              "RelativeDocumentMoniker": "Binary Tree Postorder Traversal\\Binary Tree Postorder Traversal.cpp",
+              "ToolTip": "C:\\Users\\User\\source\\Binary Tree Postorder Traversal\\Binary Tree Postorder Traversal\\Binary Tree Postorder Traversal.cpp",
+              "RelativeToolTip": "Binary Tree Postorder Traversal\\Binary Tree Postorder Traversal.cpp",
+              "ViewState": "AgIAADYAAAAAAAAAAAAowEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-08-21T09:35:10.323Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

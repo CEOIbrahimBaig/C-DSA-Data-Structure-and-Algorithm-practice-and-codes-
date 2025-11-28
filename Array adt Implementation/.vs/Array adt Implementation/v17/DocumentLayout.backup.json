@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\Array adt Implementation\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F3D18B42-28AE-4772-B248-248867AA7DD4}|Array adt Implementation\\Array adt Implementation.vcxproj|C:\\Users\\User\\source\\Array adt Implementation\\Array adt Implementation\\Array adt Implementation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F3D18B42-28AE-4772-B248-248867AA7DD4}|Array adt Implementation\\Array adt Implementation.vcxproj|solutionrelative:Array adt Implementation\\Array adt Implementation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Array adt Implementation.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\source\\Array adt Implementation\\Array adt Implementation\\Array adt Implementation.cpp",
+              "RelativeDocumentMoniker": "Array adt Implementation\\Array adt Implementation.cpp",
+              "ToolTip": "C:\\Users\\User\\source\\Array adt Implementation\\Array adt Implementation\\Array adt Implementation.cpp",
+              "RelativeToolTip": "Array adt Implementation\\Array adt Implementation.cpp",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAIwJoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-05T04:29:48.032Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

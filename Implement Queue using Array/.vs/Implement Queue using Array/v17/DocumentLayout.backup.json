@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\Implement Queue using Array\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{10CB56B5-D42D-4E7D-B405-7BFCE4F4AE68}|Implement Queue using Array\\Implement Queue using Array.vcxproj|C:\\Users\\User\\source\\Implement Queue using Array\\Implement Queue using Array\\Implement Queue using Array.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{10CB56B5-D42D-4E7D-B405-7BFCE4F4AE68}|Implement Queue using Array\\Implement Queue using Array.vcxproj|solutionrelative:Implement Queue using Array\\Implement Queue using Array.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Implement Queue using Array.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\source\\Implement Queue using Array\\Implement Queue using Array\\Implement Queue using Array.cpp",
+              "RelativeDocumentMoniker": "Implement Queue using Array\\Implement Queue using Array.cpp",
+              "ToolTip": "C:\\Users\\User\\source\\Implement Queue using Array\\Implement Queue using Array\\Implement Queue using Array.cpp",
+              "RelativeToolTip": "Implement Queue using Array\\Implement Queue using Array.cpp",
+              "ViewState": "AgIAAE0AAAAAAAAAAADwv2MAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-08-05T13:43:05.856Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

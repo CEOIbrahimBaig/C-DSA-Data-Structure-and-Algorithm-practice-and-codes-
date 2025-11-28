@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\Mid 3rd  Semester practice\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{37076E81-47AE-4C44-B325-33BA00FA2935}|Mid 3rd  Semester practice\\Mid 3rd  Semester practice.vcxproj|C:\\Users\\User\\source\\Mid 3rd  Semester practice\\Mid 3rd  Semester practice\\Mid 3rd  Semester practice.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{37076E81-47AE-4C44-B325-33BA00FA2935}|Mid 3rd  Semester practice\\Mid 3rd  Semester practice.vcxproj|solutionrelative:Mid 3rd  Semester practice\\Mid 3rd  Semester practice.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Mid 3rd  Semester practice.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\source\\Mid 3rd  Semester practice\\Mid 3rd  Semester practice\\Mid 3rd  Semester practice.cpp",
+              "RelativeDocumentMoniker": "Mid 3rd  Semester practice\\Mid 3rd  Semester practice.cpp",
+              "ToolTip": "C:\\Users\\User\\source\\Mid 3rd  Semester practice\\Mid 3rd  Semester practice\\Mid 3rd  Semester practice.cpp*",
+              "RelativeToolTip": "Mid 3rd  Semester practice\\Mid 3rd  Semester practice.cpp*",
+              "ViewState": "AgIAALEAAAAAAAAAAAAAAGwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-26T03:51:52.424Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

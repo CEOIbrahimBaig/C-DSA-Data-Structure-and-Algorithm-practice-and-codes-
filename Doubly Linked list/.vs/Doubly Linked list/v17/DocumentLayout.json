@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\Doubly Linked list\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{56ABAA14-C968-4245-B770-1A556C4BDAA9}|Doubly Linked list\\Doubly Linked list.vcxproj|C:\\Users\\User\\source\\Doubly Linked list\\Doubly Linked list\\Doubly Linked list.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{56ABAA14-C968-4245-B770-1A556C4BDAA9}|Doubly Linked list\\Doubly Linked list.vcxproj|solutionrelative:Doubly Linked list\\Doubly Linked list.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Doubly Linked list.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\source\\Doubly Linked list\\Doubly Linked list\\Doubly Linked list.cpp",
+              "RelativeDocumentMoniker": "Doubly Linked list\\Doubly Linked list.cpp",
+              "ToolTip": "C:\\Users\\User\\source\\Doubly Linked list\\Doubly Linked list\\Doubly Linked list.cpp",
+              "RelativeToolTip": "Doubly Linked list\\Doubly Linked list.cpp",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAAB0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-27T12:46:41.214Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
