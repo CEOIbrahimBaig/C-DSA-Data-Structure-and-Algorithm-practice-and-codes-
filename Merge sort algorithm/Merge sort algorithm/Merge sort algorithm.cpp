@@ -57,7 +57,7 @@ void printarray(int* A, int n) {
 
 int main() {
     int A[] = { 9,14,4,8,7,5,6 };
-    int n = 7;
+    int n = sizeof (A)/sizeof (A[0]);
 
     cout << "Before Sorting: ";
     printarray(A, n);

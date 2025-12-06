@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\Merge two sorted array without using recursion\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3C3038A8-C36E-45D2-94DC-F5E0BA2320C1}|Merge two sorted array without using recursion\\Merge two sorted array without using recursion.vcxproj|C:\\Users\\User\\source\\repos\\Merge two sorted array without using recursion\\Merge two sorted array without using recursion\\Merge two sorted array without using recursion.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3C3038A8-C36E-45D2-94DC-F5E0BA2320C1}|Merge two sorted array without using recursion\\Merge two sorted array without using recursion.vcxproj|solutionrelative:Merge two sorted array without using recursion\\Merge two sorted array without using recursion.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Merge two sorted array without using recursion.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Merge two sorted array without using recursion\\Merge two sorted array without using recursion\\Merge two sorted array without using recursion.cpp",
+              "RelativeDocumentMoniker": "Merge two sorted array without using recursion\\Merge two sorted array without using recursion.cpp",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Merge two sorted array without using recursion\\Merge two sorted array without using recursion\\Merge two sorted array without using recursion.cpp",
+              "RelativeToolTip": "Merge two sorted array without using recursion\\Merge two sorted array without using recursion.cpp",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-28T20:29:31.11Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
