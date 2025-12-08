@@ -100,16 +100,16 @@ int partition(int* A, int l, int h) {
 			j--;
 		}
 
-		if (j < i) {
+		if (i<j) {
 			int temp = A[i];
 			A[i] = A[j];
 			A[j] = temp;
 		}
 	} while (i < j);
 	// swap a [l ] and a [j]
-	int temp = A[l];
+	int pivot = A[l];
 	A[l] = A[j];
-	A[j] = temp;
+	A[j] = pivot;
 
 	return j;
 }
@@ -120,7 +120,7 @@ void quicksort(int* A, int l, int h) {
  
 	int pivot = partition(A, l, h);
 
-	if (l > h) {
+	if (l < h) {
 
 		quicksort(A, pivot + 1, h);
 		quicksort(A, l, pivot - 1);
