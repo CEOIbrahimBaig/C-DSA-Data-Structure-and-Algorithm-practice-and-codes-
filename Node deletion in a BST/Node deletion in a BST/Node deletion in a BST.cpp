@@ -38,8 +38,13 @@ public :
 		// 1st case  = The node to delete is a leaf node 
 		if (leaf_node(ptr)) { // Suppse the val was equal to leaf node then it will check and delete it 
 			
-			root_of_ptr->left = NULL;
-			root_of_ptr->right = NULL;
+			if (root_of_ptr->left == ptr) {
+				root_of_ptr->left = NULL;
+			}
+			else { 
+				root_of_ptr->right = NULL; 
+			}
+
 
 			delete(ptr);
 			return root;

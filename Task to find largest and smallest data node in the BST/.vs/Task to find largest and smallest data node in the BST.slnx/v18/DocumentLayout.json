@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\Task to find largest and smallest data node in the BST\\",
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\Task to find largest and smallest data node in the BST\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8CEA084D-787E-4747-B90E-E630F383E767}|Task to find largest and smallest data node in the BST\\Task to find largest and smallest data node in the BST.vcxproj|C:\\Users\\User\\source\\repos\\Task to find largest and smallest data node in the BST\\Task to find largest and smallest data node in the BST\\Task to find largest and smallest data node in the BST.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{8CEA084D-787E-4747-B90E-E630F383E767}|Task to find largest and smallest data node in the BST\\Task to find largest and smallest data node in the BST.vcxproj|C:\\Users\\User\\source\\Task to find largest and smallest data node in the BST\\Task to find largest and smallest data node in the BST\\Task to find largest and smallest data node in the BST.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8CEA084D-787E-4747-B90E-E630F383E767}|Task to find largest and smallest data node in the BST\\Task to find largest and smallest data node in the BST.vcxproj|solutionrelative:Task to find largest and smallest data node in the BST\\Task to find largest and smallest data node in the BST.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -14,17 +14,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Task to find largest and smallest data node in the BST.cpp",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Task to find largest and smallest data node in the BST\\Task to find largest and smallest data node in the BST\\Task to find largest and smallest data node in the BST.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\source\\Task to find largest and smallest data node in the BST\\Task to find largest and smallest data node in the BST\\Task to find largest and smallest data node in the BST.cpp",
               "RelativeDocumentMoniker": "Task to find largest and smallest data node in the BST\\Task to find largest and smallest data node in the BST.cpp",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\Task to find largest and smallest data node in the BST\\Task to find largest and smallest data node in the BST\\Task to find largest and smallest data node in the BST.cpp",
+              "ToolTip": "C:\\Users\\User\\source\\Task to find largest and smallest data node in the BST\\Task to find largest and smallest data node in the BST\\Task to find largest and smallest data node in the BST.cpp",
               "RelativeToolTip": "Task to find largest and smallest data node in the BST\\Task to find largest and smallest data node in the BST.cpp",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAwwB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-11-28T16:55:26.608Z",
               "EditorCaption": ""
