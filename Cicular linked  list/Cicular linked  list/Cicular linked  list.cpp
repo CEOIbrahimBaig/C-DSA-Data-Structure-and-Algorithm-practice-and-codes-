@@ -13,6 +13,10 @@ public:
 
     void linkedlist_traversal(Node *head) {
        
+        if (head == NULL) {
+            cout << "The list is empty " << endl;
+            return; 
+        }
         Node* ptr = head;
 
         do {
@@ -21,10 +25,11 @@ public:
 
         } while (ptr!= head);
 }
+
     Node* insert_at_first(Node* head, int data1) {
         
         Node* newnode = new Node; // New node creation 
-        newnode->data = data1;   // Giving new node data 
+        newnode->data = data1;   //  Giving new node data 
         
         Node* ptr = head->next; 
 

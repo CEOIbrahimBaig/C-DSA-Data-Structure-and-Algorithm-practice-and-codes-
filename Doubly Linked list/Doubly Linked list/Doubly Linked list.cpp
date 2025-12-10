@@ -19,13 +19,10 @@ public:
         
             cout << " The data is : " << ptr->data << endl;
             ptr = ptr->next;
-            
-            
-
            
         }
       cout<< " The data is : " << ptr->data << endl;
-      ptr = ptr->prev;
+      
       while (ptr != nullptr) {
           cout << " The data is : " << ptr->data << endl;
           ptr = ptr->prev;
