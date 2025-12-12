@@ -312,10 +312,52 @@ public:
 				return head;
 			}
 
+		}
+	  // Case 4 if the node to delete is root node 
 
+		Node* largest = ptr->left;
+		Node* largest_root = ptr->left;
 
-	
+		while (largest ->right!= NULL) {
+			largest_root = largest;
+
+			largest = largest->right;
+
+		}
+		ptr->data = largest->data;
+
+		if (largest_root->left == largest) {
+			largest_root->left = NULL;
+			delete(largest);
+			return head;
+		}
+		else {
+			largest_root->right = NULL;
+			delete(largest);
+			return head;
+		}
 	}
+	Node* smallest(Node* head) {
+		Node* ptr = head;
+
+		while (ptr->left != NULL) {
+			ptr = ptr->left;
+		}
+		return ptr;
+	}
+	Node* largest(Node* head) {
+
+		Node* ptr = head;
+
+		while (ptr->right != NULL) {
+			ptr = ptr->right;
+		}
+
+		return ptr;
+
+	}
+
+
 };
 
 
