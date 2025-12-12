@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\Graph with adjacency  matrix\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D9751A26-9982-4FE5-913A-289D2099C1AF}|Graph with adjacency  matrix\\Graph with adjacency  matrix.vcxproj|C:\\Users\\User\\source\\repos\\Graph with adjacency  matrix\\Graph with adjacency  matrix\\Graph with adjacency  matrix.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D9751A26-9982-4FE5-913A-289D2099C1AF}|Graph with adjacency  matrix\\Graph with adjacency  matrix.vcxproj|solutionrelative:Graph with adjacency  matrix\\Graph with adjacency  matrix.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Graph with adjacency  matrix.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Graph with adjacency  matrix\\Graph with adjacency  matrix\\Graph with adjacency  matrix.cpp",
+              "RelativeDocumentMoniker": "Graph with adjacency  matrix\\Graph with adjacency  matrix.cpp",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Graph with adjacency  matrix\\Graph with adjacency  matrix\\Graph with adjacency  matrix.cpp",
+              "RelativeToolTip": "Graph with adjacency  matrix\\Graph with adjacency  matrix.cpp",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAAAUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-11T04:34:02.929Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

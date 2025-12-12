@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\Binary_search_tree_codes and concepts\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{82822BFA-5DE1-4FAC-8F87-B29E5DB44ACE}|Binary_search_tree_codes and concepts\\Binary_search_tree_codes and concepts.vcxproj|C:\\Users\\User\\source\\repos\\Binary_search_tree_codes and concepts\\Binary_search_tree_codes and concepts\\Binary_search_tree_codes and concepts.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{82822BFA-5DE1-4FAC-8F87-B29E5DB44ACE}|Binary_search_tree_codes and concepts\\Binary_search_tree_codes and concepts.vcxproj|solutionrelative:Binary_search_tree_codes and concepts\\Binary_search_tree_codes and concepts.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Binary_search_tree_codes and concepts.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Binary_search_tree_codes and concepts\\Binary_search_tree_codes and concepts\\Binary_search_tree_codes and concepts.cpp",
+              "RelativeDocumentMoniker": "Binary_search_tree_codes and concepts\\Binary_search_tree_codes and concepts.cpp",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Binary_search_tree_codes and concepts\\Binary_search_tree_codes and concepts\\Binary_search_tree_codes and concepts.cpp",
+              "RelativeToolTip": "Binary_search_tree_codes and concepts\\Binary_search_tree_codes and concepts.cpp",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAwwFwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-09T19:10:24.196Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
