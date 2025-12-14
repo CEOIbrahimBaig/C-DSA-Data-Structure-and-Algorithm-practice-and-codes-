@@ -114,7 +114,7 @@ void quick_sort(int a[], int l, int h) {
 
 
 }
-
+/*
 
 /// Now  BINARY SEARCH TREE 
 
@@ -357,13 +357,13 @@ public:
 
 	}
 
-
+	
 };
+*/
 
 
 
-
-
+/*
 int main() {
 
 	int a[] = { 2,42,1,5,35 };
@@ -375,9 +375,720 @@ int main() {
 
 	HEAD->left = NULL;
 	HEAD->right = NULL;
-	
 
-		
-		
+
+
+
 	return 0;
 }
+*/
+
+// Circular Linkedlist
+/*
+
+class Node {
+
+public:
+
+	int data;
+	Node* next;
+
+	void traversal(Node* head) {
+
+		Node* ptr = head;
+		do {
+			cout << "Data  :" << ptr->data << endl;
+			ptr = ptr->next;
+
+		} while (ptr != head);
+
+	}
+	Node* insert_at_first(Node* head,int  val) {
+
+		Node* ptr = head;
+
+		Node* new_node = new Node;
+		new_node->next = NULL;
+		new_node->data = val;
+
+		if (head == NULL) {
+			cout << "List is empty" << endl;
+			new_node->next = new_node;
+			
+			return new_node;
+		}
+
+		while (ptr->next != head) {
+
+			ptr = ptr->next;
+
+		}
+		ptr->next = new_node;
+		new_node->next = head;
+		return new_node;
+	}
+	Node* insert_at_end(Node* head, int val) {
+
+		Node* ptr = head;
+
+		Node* new_node = new Node;
+		new_node->data = 12;
+		new_node->next = NULL;
+
+		if (head == NULL) {
+			cout << "List is empty" << endl;
+			new_node->next = new_node;
+
+			return new_node;
+		}
+
+		
+
+		while (ptr->next != head) {
+			ptr = ptr->next;
+		}
+
+		ptr->next = new_node;
+		new_node->next = head;
+
+		return  head;
+		
+	}
+
+	Node* insert_at_index(Node* head, int index, int val) {
+
+		Node* ptr = head;
+		
+		Node* new_node = new Node;
+		new_node->next = NULL;
+
+		new_node->data = val;
+
+		if (head == NULL) {
+			new_node->next = new_node;
+			return new_node;
+		}
+
+		if (index == 0) {
+			while (ptr->next != head) {
+				ptr = ptr->next;
+			}
+			ptr->next = new_node;
+			new_node->next = head;
+
+			return new_node;
+		}
+		Node* new_ptr = head;
+		int i = 0;
+		while (i < index - 1) {
+			new_ptr = new_ptr->next; 
+			i++;             // Forgot to increment i 
+			if (new_ptr == head) {
+				cout << "Index out of bonds " << endl;
+				                       
+				delete(new_node);
+				return head;
+
+			}
+		}
+
+		
+		new_node->next = new_ptr->next;
+		new_ptr->next = new_node;
+
+		return head;
+	}
+
+	Node* delete_at_first(Node* head) {
+
+		Node* ptr = head;
+		
+
+		if (head == NULL) {  // If No Node is present 
+
+			cout << "List is empty " << endl;
+			return NULL;
+		}
+		
+		if (head->next == head) { // If only one Node is present 
+
+			delete(ptr);
+			return NULL;
+		}
+
+		while (ptr->next != head) {
+			ptr = ptr->next;
+		}
+		// Now ptr is at head ;
+		Node* del = head;
+		head = head->next;
+		
+		ptr->next = head;
+
+		delete(del);
+
+		return head;
+	}
+	Node* delete_at_end(Node* head) {
+
+		if (head == NULL) {
+			cout << "The list is empty " << endl;
+			delete(head);
+			return NULL;
+		}
+		if (head->next == head) {
+
+			delete(head);
+			return NULL;
+
+		}
+
+		Node* ptr = head->next;
+		Node* ptr_root = head;
+
+		while (ptr->next != head) {
+			ptr_root = ptr;
+			ptr = ptr->next;
+		}
+		// Now ptr is at end whihc we have to delete 
+
+		ptr_root->next = head;
+		delete(ptr);
+
+		return head;
+		
+
+	}
+	Node* delete_at_index(Node* head, int index) {
+
+		if (head == NULL) {
+			delete(head);
+			return NULL;
+		}
+	
+		Node* ptr = head;
+		Node* ptr_root = head;
+		int i = 0;
+
+		while (i < index - 1) {
+			ptr_root = ptr;
+			ptr = ptr->next;
+
+			if (ptr == head) {
+				cout << "Index out of bond " << endl;
+				return NULL;
+			}
+			i++;                 //Forgot to increment i 
+		}
+
+		ptr_root->next = ptr->next;
+		
+		delete(ptr);
+		return head;
+	}
+	
+};
+
+
+int main() {
+	//  Creating Node 
+	Node* head = new Node;
+	Node* secound = new Node;
+
+	//Assigning Data
+	head->data = 12;
+	secound->data = 22;
+
+	//Linking chain 
+	head->next = secound;
+	secound->next = head;
+
+
+
+
+
+	return 0;
+}
+*/
+/*
+class Node {
+public:
+
+	int data; 
+	Node* next;
+	Node* prev;
+
+
+	void traversal(Node* head) {
+		
+		if (head == NULL) {
+			cout << "List is empty " << endl;
+			return;
+		}
+
+
+		Node* ptr = head;
+
+		while (ptr->next != NULL) {
+			cout << "Data : " << ptr->data << endl;
+			ptr = ptr->next;
+		}
+		cout<< "Data : " << ptr->data << endl;
+
+		while (ptr->prev!= NULL) {
+			cout<< "Data : " << ptr->data << endl;
+			ptr = ptr->prev;
+
+		}
+		cout<< "Data : " << ptr->data << endl;
+
+	}
+
+	Node* insert_at_start(Node* head, int val) {
+
+
+		Node* new_node = new Node;
+		new_node->next = NULL;
+		new_node->prev = NULL;
+		new_node->data = val;
+
+		if (head == NULL) {
+
+			head = new_node;
+			return new_node;
+		}
+
+		Node* ptr = head;
+
+		new_node->next = ptr;
+		ptr->prev = new_node;
+
+		return new_node;
+
+
+
+	}
+	Node* insert_at_end(Node* head, int val) {
+
+		Node* new_node = new Node;
+
+		new_node->next = NULL;
+		new_node->prev = NULL;
+		new_node->data = val;
+		
+		if (head == NULL) {
+			head = new_node;
+			return new_node;
+		}
+
+		Node* ptr = head;
+
+		
+		while (ptr->next != NULL) {
+			
+			ptr = ptr->next;
+
+		}
+		ptr->next = new_node;
+		new_node->prev = ptr;
+
+		return head;
+	}
+	Node* insert_at_index(Node* head, int index,int val) {
+
+		Node* new_node = new Node;  
+
+		new_node->data = val;
+		new_node->next = NULL;
+		new_node->prev = NULL;
+
+		if (head == NULL) {
+			head = new_node;
+			return new_node;
+
+		}
+		if (index == 0) {
+			new_node->next = head;
+			new_node->prev = NULL;
+			if (head != NULL) {
+				head->prev = new_node;
+			}
+			return new_node; // new head
+		}
+
+		Node* ptr = head;
+		int i = 0;
+		
+		while (i < index - 1) {
+			ptr = ptr->next;
+
+			if (ptr == NULL) {
+				cout << "Out of bond request" << endl;
+				return NULL;
+			}
+
+			i++;
+		}
+		new_node->next = ptr->next;
+		ptr->next = new_node;
+		new_node->prev = ptr;
+		
+
+		return head;
+
+	}
+	Node* delete_at_start(Node* head) {
+
+		if (head == NULL) {
+
+			cout << "List is empty " << endl;
+
+			return head;
+
+		}
+		if (head->next == NULL) {
+			
+			delete(head);
+			return NULL;
+		}
+
+		Node* ptr = head;
+		head = head->next;
+		head->prev = NULL;
+
+		delete(ptr);
+
+		return head;
+	}
+	Node* delete_at_end(Node* head) {
+
+		if (head == NULL) {
+			cout << "List  is empty" << endl;
+			return NULL;
+		}
+		if (head->next == NULL) {
+			delete(head);
+			return NULL;
+		}
+
+		Node* ptr = head;
+		Node* before_ptr = head;
+		while (ptr->next != NULL) {
+			before_ptr = ptr;
+			ptr = ptr->next;
+
+		}
+		ptr -> prev = NULL;
+		before_ptr->next = NULL;
+		delete(ptr);
+
+		return head;
+
+	}
+	Node* delete_at_index(Node *head , int index ) {
+
+		Node* ptr = head;
+		
+		if (head == NULL) {
+
+			cout << "List is empty" << endl;
+
+			return head;
+		}
+		if (head->next == NULL) {
+			delete (ptr);
+			return NULL;
+		}
+
+		int i = 0;
+
+		while (i < index - 1) {      // It takes to one node before required index
+			ptr = ptr->next;
+			if (ptr == NULL) {
+				cout << "Out of bond request " << endl;
+				return NULL;
+			}
+			i++;
+		}
+		
+		Node* bef = ptr->prev;
+
+		if (ptr->next != NULL) {
+			bef->next = ptr->next;
+			ptr->next->prev = bef;
+		}
+		else {
+			bef->next = NULL;
+		}
+		delete(ptr);
+		return head;
+
+
+
+
+	}
+	Node* searc(Node* head, int val) {
+
+		Node* ptr = head;
+		if (head == NULL) {
+
+			cout << "Empty";
+			return NULL;
+		}
+		while (ptr != NULL && ptr->data != val) {
+			ptr = ptr->next;
+		}
+		if (ptr == NULL) {
+			cout << "NOT Found ";
+		}
+		else {
+			cout << "Data found " << endl;
+
+		}
+		return ptr;
+
+	}
+
+
+};
+*/
+/*
+int main() {
+
+	// Create Nodes 
+	Node* head = new Node;
+	Node* secound = new Node;
+
+	//Assign data 
+
+	head->data = 12;
+	secound->data = 22;
+
+	// Linking them 
+
+	head->next = secound;
+	head->prev = NULL;
+
+	secound->next = NULL;
+	secound->prev = head;
+
+
+
+
+	return 0;
+}
+*/
+
+// Queue creation using Linkedlist  
+
+/*
+class Node {
+
+public:
+
+	int data;
+	Node* r;
+	Node* f;
+	Node* next;
+
+	Node() {
+		r = f = NULL;
+	}
+
+bool isempty() {
+
+	if (f == NULL) {
+		cout << "Stack is empty " << endl;
+		return true;
+	}
+	else {
+		return false;
+	}
+
+   }
+
+Node* enqueue(int val) {
+
+	Node* new_node = new Node;
+	new_node->data = val;
+	new_node->next = NULL;  // Did mistake here as I forgot to declare this line 
+
+	if (isempty()) {
+
+		r = f = new_node;
+		return new_node;
+		
+	}
+	r->next = new_node;
+	r = r->next;
+	
+	cout << "Enqueue : " << new_node->data << endl;
+	return r;
+
+
+}
+
+void dequeue() {
+
+	if (f == NULL) {
+		cout << "List is empty " << endl;
+		return ;
+	}
+
+	Node* ptr = f;
+
+	if (f->next != NULL) {
+		f = f->next;
+
+		cout << "Removed :" << ptr->data << endl;
+	}
+	else {
+		f=NULL;
+		r = NULL;
+
+		cout << "Now the list is empty as you dequeued " <<ptr->data<< endl;
+		return;
+	}
+	delete(ptr);
+
+	return;
+
+
+} 
+Node* peek() {   // Peak means printing the front value 
+
+	if (f == NULL) {
+		cout << "List is empty " << endl;
+		return NULL;
+	}
+	cout << "The front value is " << f->data << endl;
+	return f;
+
+}
+void display() {
+
+	if (f == NULL) {
+		cout << "List is empty " << endl;
+		return;
+	}
+
+	Node* ptr = f;
+	
+	while (ptr!= NULL) {   // Did a mistake here as I  wrote ptr->next!=NULL which does not print last node 
+
+		cout << "Data : " << ptr->data << endl;
+		ptr = ptr->next;
+
+	}
+}
+
+
+
+};
+
+*/
+
+
+// Stack Creation using linkedlist 
+
+class Node {
+public :
+
+	int data;
+	int size;
+	Node* next;
+	Node* top;
+
+	Node() {
+		size = 0;
+	}
+
+	bool is_empty() {
+		if (size == 0) {
+			cout << "List is  empty " << endl;
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
+
+	Node* push(int val) {  // Push means inserting a node in stack // 
+
+		Node* new_node = new Node;
+		new_node->data = val;
+		new_node->next = NULL;
+
+		if (is_empty()) {
+			top = new_node;
+			cout << "Pushed : " << top->data << endl;
+			size++;
+			return new_node;
+		}
+
+		
+		new_node->next = top;
+		top = new_node;
+
+		size++;
+
+		return top;
+
+
+
+	}
+	void pop() {
+
+		if (is_empty()) {
+			cout << "lIST IS EMPTY" << endl;
+			return ;
+		}
+
+		cout << "Dequeued : " << top->data << endl;
+		Node* ptr = top;
+		top = top->next;
+		
+		delete(ptr);
+
+		size--;
+	}
+	Node* peek() {
+		
+		if (is_empty()) {
+			cout << "lIST IS EMPTY" << endl;
+			return;
+		}
+		cout << "Data : " << top->data << endl;
+		return top;
+
+  }
+void display() {
+
+		if (top == NULL) {
+			cout << "List is empty " << endl;
+			return;
+		}
+		Node* ptr = top;
+
+		while (ptr != NULL) {
+			cout << ptr->data << endl;
+			ptr = ptr->next;
+		}
+
+
+	}
+int getsize() {
+
+	return size;
+
+}
+
+};
+
+int main() {
+
+
+	return 0;
+
+}
+

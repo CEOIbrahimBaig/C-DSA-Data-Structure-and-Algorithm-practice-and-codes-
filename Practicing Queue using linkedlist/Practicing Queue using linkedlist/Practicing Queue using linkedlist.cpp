@@ -18,8 +18,9 @@ public:
 
 	void enqueue(int val) {
 		Node* new_node = new Node;
-		
+		new_node->next = NULL;
 		new_node->data = val;
+
 		if (r == NULL) {
 			r = f = new_node;
 		 }
