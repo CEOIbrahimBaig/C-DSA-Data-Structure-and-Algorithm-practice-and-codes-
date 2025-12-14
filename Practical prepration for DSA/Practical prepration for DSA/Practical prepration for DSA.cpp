@@ -1089,7 +1089,7 @@ int getsize() {
 
 
 // Stack Creation using array 
-
+/*
 class stack {
 
 public:
@@ -1176,4 +1176,188 @@ int main() {
 	return 0;
 
 }
+*/
+
+
+
+// Again stack creation using array 
+
+/*
+
+class stack {
+
+public:
+
+	int size;
+	int top;
+	int* arr;
+
+	bool is_empty(stack*s) {
+		if (s->top < 0) {
+			cout << "Empty " << endl;
+			return true;
+
+		}
+		else {
+			return false; 
+		}
+     }
+	bool is_full(stack* s) {
+		if (s->top == s->size - 1) {  // Did mistake here  as i wrote smaller instead of == 
+			cout << "Stack overflowed " << endl;
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
+	void push(stack* s, int val) {
+
+		if (is_full(s)) {
+			cout << "FULL" << endl;
+			return;
+		}
+
+		s->top++;
+		s->arr[s->top] = val;
+
+
+
+	}
+	int pull(stack* s) {
+
+		if (is_empty(s)) {
+			cout << "Empty " << endl;
+			return;
+
+		}
+
+		int val = s->arr[s->top];
+		s->top--;
+
+
+	}
+
+void display(stack* a) {
+	if (is_empty(a)) {
+		cout << "Stack is empty" << endl;
+		return;
+	}
+
+	for (int i = a->top; i >= 0; i--) {
+		cout << a->arr[i] << endl;
+	}
+}
+
+};
+
+
+
+int main() {
+
+	stack *s= new stack;
+	s->size = 12;
+	s->top = -1;
+	s->arr = new int[s->size];
+
+
+
+	return 0;
+}
+*/
+
+// Now creating queueu using linkedlist 
+
+
+class queue {
+
+public:
+
+	int* arr;
+	int r;
+	int f; 
+	int size;
+
+	bool is_empty() {
+
+		if (f == r && r == -1) {
+			cout << "Empty" << endl;
+			return true;
+
+		}
+		else {
+			return false;
+		}
+	}
+	bool is_full() {
+		if (r == size - 1) {
+			cout << "Full" << endl;
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
+	void add(queue* s, int val) {
+
+		if (s->is_full()) {
+			cout << "Empty" << endl;
+			return;
+		}
+		
+		if (s->f == -1) { // if list was empty 
+			s->f = 0;
+		}
+		s->r++;
+		s->arr[r] = val;
+
+	}
+	int remove(queue* s) {
+
+		if (s->is_empty()) {
+			cout << "Empty" << endl;
+			return -1;
+		}
+
+		if (s->f >s->r) {  // if list become empty 
+			s->r = -1;
+			s->f = -1;
+		}
+		int removed = s->arr[s->f];
+		s->f++;
+		return removed;
+	}
+	void display(queue* a) {
+
+		if (a->is_empty()) {
+			return;
+		}
+		int g = f;
+		while (g <= a->r) {  // Dont use not equal instead use <
+			cout << a->arr[g]<< endl;
+			g++;
+		}
+		
+
+	}
+	void peek() {
+		if (is_empty()) {
+			return;
+		}
+		cout << arr[f] << endl;
+	}
+};
+
+
+int main() {
+
+	queue* s = new queue;
+	s->size = 5;
+	s->r = -1;
+	s->f = -1;
+	s->arr = new int[s->size];
+
+	return 0;
+}
+
 
