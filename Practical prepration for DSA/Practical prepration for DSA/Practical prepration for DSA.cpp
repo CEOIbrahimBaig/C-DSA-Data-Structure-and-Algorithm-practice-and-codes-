@@ -990,7 +990,7 @@ void display() {
 
 
 // Stack Creation using linkedlist 
-
+/*
 class Node {
 public :
 
@@ -1085,8 +1085,93 @@ int getsize() {
 
 };
 
-int main() {
+*/
 
+
+// Stack Creation using array 
+
+class stack {
+
+public:
+
+	int* arr;
+	int size;
+	int top;
+
+	bool is_empty(stack *ptr) {
+
+		if (ptr->top < 0) {
+			cout << "Stack is empty " << endl;
+			return true;
+		}
+		else {
+			return false;
+		}
+
+	}
+
+	bool is_full(stack* a) {
+
+		if (a->top == a->size - 1) {
+			cout << "Stack is full " << endl;
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
+
+	void push(stack *a, int val) {
+
+		if (is_full(a)) {
+			return;
+		}
+		a->top++;
+		a->arr[a->top] = val;
+
+	}
+	int pull(stack* a) {
+
+		if (is_empty(a)) {
+
+			cout << "Stack is empty" << endl;
+
+			return -1; 
+		}
+		int val_deleted = a->arr[a->top];
+		a->top--;
+
+		return val_deleted;
+
+	}
+	int get_element(stack* s, int index) {
+		if (index < 0 || index > s->top) {
+			cout << "Invalid index" << endl;
+			return -1;  // or some error value
+		}
+		return s->arr[index];
+	}
+	int stack_top(stack* s) {
+
+		if (is_empty(s)) {
+			return;
+
+		}
+		int val = s->arr[s->top];
+
+		return val;
+	}
+};
+
+
+
+
+int main() {
+	stack *s = new stack;
+
+	s->size = 10;
+	s->top = -1;
+	s->arr = new int[s->size];
 
 	return 0;
 

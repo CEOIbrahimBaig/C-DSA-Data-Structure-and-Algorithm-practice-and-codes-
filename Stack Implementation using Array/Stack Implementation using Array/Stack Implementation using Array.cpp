@@ -64,19 +64,13 @@ public:
         }
 
     }
-    int peek(stack* ptr, int i) {
-
-        int arrayind = ptr->top - i + 1;
-
-        if (arrayind<0) {
-         
-            cout << "Not a valid position for Stack" << endl;
-
-            return -1;
+    int get_element(stack* s, int index) {
+        if (index < 0 || index > s->top) {
+            cout << "Invalid index" << endl;
+            return -1;  // or some error value
         }
-        else {
-            return ptr->arr[arrayind];
-        }
+        return s->arr[index];
+    }
 
     }
     int stacktop(stack *ptr) {   //To print the top element  
@@ -131,7 +125,7 @@ int main()
   
    for (int j = 1; j <=s->top + 1; j++) {
        
-        cout << "The value at index " << j-1 << " is " << s->peek(s, j);
+        cout << "The value at index " << j-1 << " is " << s->get_element(s, j);
         cout << endl;
        
     }
