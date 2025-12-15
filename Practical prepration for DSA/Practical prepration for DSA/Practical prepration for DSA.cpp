@@ -6,7 +6,7 @@ using namespace std;
 
 
 // Merge sort 
-
+/*
 void  merge(int a[], int l, int m, int h) {
 
 	int i = l;
@@ -114,6 +114,7 @@ void quick_sort(int a[], int l, int h) {
 
 
 }
+*/
 /*
 
 /// Now  BINARY SEARCH TREE 
@@ -1268,6 +1269,7 @@ int main() {
 
 // Now creating queueu using linkedlist 
 
+/*
 
 class queue {
 
@@ -1337,7 +1339,7 @@ public:
 			cout << a->arr[g]<< endl;
 			g++;
 		}
-		
+	
 
 	}
 	void peek() {
@@ -1356,6 +1358,130 @@ int main() {
 	s->r = -1;
 	s->f = -1;
 	s->arr = new int[s->size];
+
+
+
+	return 0;
+}
+
+*/
+
+// Heap Sort 
+
+/*
+void heapify(int a[], int n , int i) {
+
+	int largest = i;  //root 
+	int left = 2 * i + 1;  //Left child 
+	int right = 2 * i +2; //Right child
+
+	if (left<n && a[left]>largest) {
+		largest = left;
+	}
+
+	if (right<n && a[right]>largest) {
+		largest = right;
+	}
+
+	if (largest != i) {
+		swap(a[largest], a[i]);
+		heapify(a, n,largest);
+	}
+
+}
+
+void heapsort(int a [],int n) {
+
+	// Creating Max heap 
+
+	for (int i = n / 2 - 1; i >= 0; i--) {
+
+		heapify(a, n, i);
+	}
+
+	// Extract element one by one 
+
+	for (int i = n - 1; i > 0; i--) {
+		swap(a[0], a[i]);
+		heapify(a, i,0);
+
+	}
+}
+*/
+/*
+void heapify(int a[], int n , int i) {
+
+	int largest = i;
+	int left = i * 2 + 1;
+	int right = i * 2 + 2;
+
+	if (left <n && a[left]>largest) {
+		largest = left;
+	}
+	if (right<n && a[right]>largest) {
+		largest = right;
+	}
+	if (largest != i) {
+		swap(a[i], a[largest]);
+		heapify(a, n, largest);
+	}
+}
+
+void heapsort(int a[], int n) {
+
+	for (int i = n / 2 - 1; i >= 0; i--) {
+
+		heapify(a, n, i);
+	}
+
+	for (int i = n - 1; i > 0; i--) {
+		swap(a[i], a[0]);
+		heapify(a, i, 0);
+	}
+
+
+}
+
+*/
+
+
+void heapify(int a[], int n, int i) {
+
+	int largest = i;
+	int left = 2 * i + 1;
+	int  right = 2 * i + 2;
+
+	if (a[left] > largest) {
+		largest = left;
+	}
+	if (a[right] > largest) {
+		largest = right;
+	}
+
+	if (largest != i) {
+		swap(a[i], a[largest]);
+		heapify(a, n, largest);
+	}
+
+
+}
+
+void heap_sort(int a[], int n, int i) {
+
+	for (int i = n / 2 - 1; i >= 0; i--) {
+
+		heapify(a, n,i );
+	}
+	for (int i = n - 1; i > 0; i--) {
+		swap(a[i], a[0]);
+		heapify(a, i, 0);
+	}
+}
+int main() {
+
+	int a[] = { 1,23,2,4,6,5 };
+	int size = 6;
+
 
 	return 0;
 }
