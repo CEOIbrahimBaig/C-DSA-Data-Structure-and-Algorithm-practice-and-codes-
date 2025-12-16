@@ -7,56 +7,6 @@ using namespace std;
 
 
 
-
-/*
-
-int  partition(int a[],int l,int h) {
-	 
-	int i = l;
-	int j = h;
-	int pivot = a[l];
-
-	do {
-		if (a[i] < pivot) { // i++ untill element larger then pivot is found 
-			i++;
-		}
-		else if (a[j]>pivot) { // j-- untill element smaller then pivot is found 
-			j++;
-		}
-		if (i < j) {
-			int temp = a[j];
-			a[j] = a[i];
-			a[i] = temp;
-
-		}
-
-	} while (i < j);
-	// Now swap pivot with a[j]
-	int temp = a[l];
-	a[l] = a[j];
-	a[j] = temp;
-
-
-
-	return j;
-}
-
-
-void quicksort(int a[], int l, int h) {
-
-	int pivot = partition(a,l,h);
-
-	if (l < h) {
-		quicksort(a,pivot+1,h); // For the right subarray 
-
-		quicksort(a,l,pivot-1);// For the left subarrayy
-
-
-	}
-
-
-}
-
 void merge(int a[], int l, int m, int h) { // l = low, m =mid , h = high 
 
 	int i = l; // For the first part of the arrary
@@ -107,62 +57,7 @@ void merge_sort(int a[], int l, int h) {
 
 
 
-}*/
-
-int partition(int a[],int l , int h ) {
-
-	int i = l;
-	int j = h;
-
-	int pivot = a[l];
-	
-
-
-	do {
-
-		if (a[i]<pivot ) {
-			i++;
-		}
-		else if (a[j] > pivot) {
-			j--;
-		}
-		// Swap a[i] and a[j]   ; 
-		if (i < j) {
-			int temp = a[i];
-			a[i] = a[j];
-			a[j] = temp;
-		}
-
-
-
-	} while (i < j);
-       // Sawap a[j] and pivot 	
-		int temp = a[l];
-		a[l] = a[j];
-		a[j] = temp;
-	
-
-
-	return j; 
 }
-
-
-
-void quicksort(int a[], int l, int h) {
-
-	if (l < h) {
-		int pivot = partition(a,l,h);
-			quicksort(a, pivot + 1, h);
-			quicksort(a, l, pivot - 1);
-
-
-
-
-	}
-
-
-}
-
 
 void merge(int a[], int m, int l, int h) {
 
@@ -211,6 +106,119 @@ void mergesort(int a[], int  l, int h) {
 
 }
 
+void merge(int a[], int l ,int m, int h) {
+
+	int i = l;
+	int j = m + 1;
+	int k = l;
+
+	int d[100];
+
+	while (i <= m && j <= h) {
+
+		if (a[i] < a[j]) {
+			d[k] = a[i];
+			i++;
+			k++;
+		}
+		else if (a[j] < a[i]) {
+			d[k] = a[j];
+			k++;
+			j++;
+		}
+	}
+
+	while (i <=m) {
+		d[k] = a[i];
+		i++;
+		k++;
+	}
+	while (j <= h) {
+		d[k] = a[j];
+		k++;
+		j++;
+	}
+	for (int i = l; i <= h; i++) {
+		a[i] = d[i];
+	}
+}
+
+
+void merge__sort(int a[], int l, int h) {
+
+	if (l < h) {
+		int m = (l + h) / 2;
+		merge__sort(a,l,m);
+		merge__sort(a, m + 1, h);
+		merge(a, l, m, h);
+	}
+
+
+
+}
+int partition(int a[], int l, int h) {
+
+	int i = l + 1;          // minimal fix
+	int j = h;
+	int pivot = a[l];
+
+	do {
+		while (i <= h && a[i] <= pivot) {
+			i++;
+		}
+		while (a[j] > pivot) {
+			j--;            // FIXED
+		}
+
+		if (i < j) {
+			int temp = a[i];
+			a[i] = a[j];
+			a[j] = temp;
+		}
+
+	} while (i < j);
+
+	int temp = a[l];
+	a[l] = a[j];
+	a[j] = temp;
+
+	return j;
+}
+
+int partition_1(int a[], int l, int h) {
+
+	int i = l + 1;
+	int j = h;
+
+	int pivot = a[l];
+
+	do {
+
+		while (i <= h && a[i] <= pivot) {
+			i++;
+		}
+		while (a[j] > pivot) {
+			j--;
+		}
+		if (i < j)
+		{
+			swap(a[i], a[j]);
+		}
+
+
+	} while (i < j);
+
+	swap(a[j], a[l]);
+}
+
+void quicksort(int a[], int l, int h) {
+
+	if (l < h) {
+		int pivot = partition(a, l, h);
+		quicksort(a, l, pivot - 1);
+		quicksort(a, pivot + 1, h);
+	}
+}
 
 int main() {
 	int a[] = { 1,3,52,5,88,52 };

@@ -90,8 +90,6 @@ int partition(int a[], int l , int h ) {
 		}
 
 		
-
-
 	} while (i < j);
 	swap(a[j], a[l]);
 	
