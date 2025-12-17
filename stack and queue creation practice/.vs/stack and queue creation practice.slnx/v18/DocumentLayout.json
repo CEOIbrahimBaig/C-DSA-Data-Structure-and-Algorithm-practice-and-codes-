@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\stack and queue creation practice\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2D2CB8D3-8C6D-4F1E-8B06-177737A988C1}|stack and queue creation practice\\stack and queue creation practice.vcxproj|C:\\Users\\User\\source\\repos\\stack and queue creation practice\\stack and queue creation practice\\stack and queue creation practice.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2D2CB8D3-8C6D-4F1E-8B06-177737A988C1}|stack and queue creation practice\\stack and queue creation practice.vcxproj|solutionrelative:stack and queue creation practice\\stack and queue creation practice.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "stack and queue creation practice.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\stack and queue creation practice\\stack and queue creation practice\\stack and queue creation practice.cpp",
+              "RelativeDocumentMoniker": "stack and queue creation practice\\stack and queue creation practice.cpp",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\stack and queue creation practice\\stack and queue creation practice\\stack and queue creation practice.cpp",
+              "RelativeToolTip": "stack and queue creation practice\\stack and queue creation practice.cpp",
+              "ViewState": "AgIAAPcCAAAAAAAAAAAAwPoCAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-17T06:37:46.524Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
